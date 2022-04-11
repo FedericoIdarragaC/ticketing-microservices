@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm","staart"]
+CMD ["npm","start"]
