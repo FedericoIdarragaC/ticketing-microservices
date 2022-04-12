@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: federicoidarraga/auth
+          image: us.gcr.io/fine-acronym-346916/auth
 
 ---
 apiVersion: v1
