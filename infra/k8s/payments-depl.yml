@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: payments
+  name: payments-depl
 spec:
   selector:
     matchLabels:
