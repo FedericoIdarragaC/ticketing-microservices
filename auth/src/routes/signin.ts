@@ -1,9 +1,9 @@
 import express, { Request, Response } from 'express';
-import jwt from 'jsonwebtoken';
-
 import { body } from 'express-validator';
-import { BadRequestError } from '../error/bad-request-error';
-import { validateRequest } from '../middlewares/validate-request';
+
+import { BadRequestError, validateRequest } from '@fitickets/common';
+
+import jwt from 'jsonwebtoken';
 import { User } from '../models/user';
 import { Password } from '../services/password';
 
