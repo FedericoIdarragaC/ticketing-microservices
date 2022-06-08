@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import request from 'supertest';
 import { app } from '../app';
 
-jest.setTimeout(10000);
+jest.setTimeout(50000);
 
 declare global {
   var signin: () => Promise<string[]>;
